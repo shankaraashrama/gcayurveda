@@ -28,15 +28,6 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('testimonial')
-            }}
-          >
-            Testimonials
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('address')
             }}
           >

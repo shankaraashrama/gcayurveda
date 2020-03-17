@@ -46,7 +46,7 @@
   }
 
   &:after {
-    @include vendor('transform', 'scale(1.125)');
+    @include vendor('transform', 'scale(1.0)');
     @include vendor(
       'transition',
       (
@@ -54,7 +54,7 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/sushruta.jpg');
+    background-image: url('../../images/bgpaintless.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

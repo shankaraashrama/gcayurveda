@@ -102,7 +102,7 @@ class Main extends React.Component {
           <br/>Mobile: +91 9845257723
           </p>
           <p>
-          Email: doctor@gcayurveda.in
+          Email: doctor At gcayurveda.in
           </p>
           {close}
         </article>
